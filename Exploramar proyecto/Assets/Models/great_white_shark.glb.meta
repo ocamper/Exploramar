@@ -13,7 +13,8 @@ ScriptedImporter:
     shaderOverrides:
       metallic: {fileID: -6465566751694194690, guid: a08f3a1c845d57c4293a42c3202574a1,
         type: 3}
-      metallicBlend: {instanceID: 0}
+      metallicBlend: {fileID: -6465566751694194690, guid: bb6606ffd3868dd46a773758ff6901fc,
+        type: 3}
       specular: {fileID: -6465566751694194690, guid: e6061ad897a8bd843b501d409aff8a22,
         type: 3}
       specularBlend: {fileID: -6465566751694194690, guid: 09512c1ba26fe804283ec6e09112e53c,
