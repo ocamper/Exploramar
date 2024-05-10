@@ -4,20 +4,30 @@ using UnityEngine;
 
 public class uiInteraction : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private GameObject[] tiposInfo;
+
+    //Tortuga = 0
+    //Estrella de Mar = 1
+    //Pescado carpa = 2
+    //Tiburon = 3
+    public void generateInfo(int currentAnimal)
     {
-        
+
+        for (int i = 0; i < tiposInfo.Length; i++)
+        {
+            if (i == currentAnimal)
+            {
+                tiposInfo[i].SetActive(true);
+            }
+            else
+            {
+                tiposInfo[i].SetActive(false);
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RemoveBillboard()
     {
-        
-    }
-
-    public void test()
-    {
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }
