@@ -2242,6 +2242,12 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 7862084251018353929, guid: c70f25c184fb62e4287444ab765c191e, type: 2}
     value: {fileID: 7096296101816052960}
+  - key: {fileID: 8633693297647202353, guid: c70f25c184fb62e4287444ab765c191e, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 1776607018300859262, guid: c70f25c184fb62e4287444ab765c191e, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 678109985133784526, guid: c70f25c184fb62e4287444ab765c191e, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!54 &6863389190318947614
@@ -2497,6 +2503,9 @@ MonoBehaviour:
   materials:
   - {fileID: 2100000, guid: 2b8cd5eb141f5f44ab16bb5e9f7f902f, type: 2}
   - {fileID: 2100000, guid: 513fc33d83e3ab14e8f6e0245aa134d2, type: 2}
+  _canvas: {fileID: 0}
+  billboardVerticalDistance: 0
+  currentObjType: 0
 --- !u!1001 &6535508092459356878
 PrefabInstance:
   m_ObjectHideFlags: 0

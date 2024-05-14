@@ -8,6 +8,24 @@ public class AnimalRayInteractor : MonoBehaviour
     [SerializeField] private Material[] materials;
     [SerializeField] private GameObject _canvas;
     [SerializeField] private float billboardVerticalDistance;
+
+    [Tooltip("Tortuga = 0\n" +
+        "Estrella de Mar = 1\n" +
+        "Pescado carpa = 2\n" +
+        "Tiburon Blanco = 3\n" +
+        "Tiburon Martillo = 4\n" +
+        "Ballena Jorobada = 5\n" +
+        "Aguja Blanca = 6\n" +
+        "Manta Gigante = 7\n" +
+        "Calamar Luminoso = 8\n" +
+        "Cardumen = 9\n" +
+        "Boga de Rio = 10\n" +
+        "Caballo de Mar = 11\n" +
+        "Cocodrilo = 12\n" +
+        "Manta Raya = 13\n" +
+        "Tiburon Martillo = 14\n" +
+        "Orca = 15\n" +
+        "Tiburon Tigre = 16")]
     [SerializeField] private int currentObjType;
 
     public void ActivarInteraccion() => m_Renderer.material = materials[1];
