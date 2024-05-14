@@ -20,9 +20,8 @@ public class uiInteraction : MonoBehaviour
     //Caballo de Mar = 11
     //Cocodrilo = 12
     //Manta Raya = 13
-    //Tiburon Martillo = 14
-    //Orca = 15
-    //Tiburon Tigre = 16
+    //Orca = 14
+    //Tiburon Tigre = 15
     public void generateInfo(int currentAnimal)
     {
         

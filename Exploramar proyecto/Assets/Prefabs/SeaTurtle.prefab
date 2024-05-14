@@ -2503,8 +2503,8 @@ MonoBehaviour:
   materials:
   - {fileID: 2100000, guid: 2b8cd5eb141f5f44ab16bb5e9f7f902f, type: 2}
   - {fileID: 2100000, guid: 513fc33d83e3ab14e8f6e0245aa134d2, type: 2}
-  _canvas: {fileID: 0}
-  billboardVerticalDistance: 0
+  _canvas: {fileID: 5887081836714889168, guid: c75ba32a1ecce124bb0ffdd5d2811de9, type: 3}
+  billboardVerticalDistance: 1.2
   currentObjType: 0
 --- !u!1001 &6535508092459356878
 PrefabInstance:
