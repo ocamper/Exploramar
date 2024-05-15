@@ -5,10 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class titleScreenManager : MonoBehaviour
 {
+
+    [SerializeField] private GameObject fadeScreen;
+    [SerializeField] private GameObject[] colliders;
+    private Animator fadeController;
+    private int changeID;
     
-    public void ButtonSelected()
+
+    private void Awake()
     {
-        Debug.Log(gameObject + " was selected");
+        fadeController = fadeScreen.GetComponent<Animator>();
+    }
+
+    public void ButtonSelected(int selected)
+    {
+        Debug.Log(selected + " was selected");
+        fadeController.SetBool("fadeIn", true);
+        changeID = selected;
+        foreach (GameObject obj in colliders)
+        {
+            obj.SetActive(false);
+        }
+    }
+
+    public void SceneChange()
+    {
+        SceneManager.LoadSceneAsync(changeID);
     }
 
 }

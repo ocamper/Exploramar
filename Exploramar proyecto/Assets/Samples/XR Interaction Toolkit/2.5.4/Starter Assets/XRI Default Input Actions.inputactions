@@ -781,6 +781,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Menu Return",
+                    "type": "Button",
+                    "id": "6c52c897-d6f9-4293-a9cc-63dee3a7f3dc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -946,6 +955,17 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "Generic XR Controller",
                     "action": "Scale Delta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d7ab71c2-edf1-4493-9d1b-f9db87e0867f",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "MultiTap",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Menu Return",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
